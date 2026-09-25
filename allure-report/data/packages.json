@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.practicum.tests",
+    "children" : [ {
+      "name" : "switchToBunsTab",
+      "uid" : "79afecaa61a72032",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347149713,
+        "stop" : 1790347162061,
+        "duration" : 12348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "switchToSaucesTab",
+      "uid" : "b2bbad5b5535f153",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347162124,
+        "stop" : 1790347167023,
+        "duration" : 4899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "switchToFillingsTab",
+      "uid" : "4e54d963e0f2db8c",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347167028,
+        "stop" : 1790347172261,
+        "duration" : 5233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromPersonalAccountButton",
+      "uid" : "dea5bf2d97cb1619",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347172268,
+        "stop" : 1790347176063,
+        "duration" : 3795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromMainPageButton",
+      "uid" : "b89576dde85fe0ba",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347176066,
+        "stop" : 1790347179946,
+        "duration" : 3880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromRegisterPageLink",
+      "uid" : "4790bf7aea62eedd",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347179950,
+        "stop" : 1790347183483,
+        "duration" : 3533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromForgotPasswordPageLink",
+      "uid" : "74d2be6a1df2766c",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347183489,
+        "stop" : 1790347187012,
+        "duration" : 3523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registerNewUserSuccess",
+      "uid" : "b0745a7cd5198fd1",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347187014,
+        "stop" : 1790347191627,
+        "duration" : 4613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registerWithShortPasswordShowsError",
+      "uid" : "53b1e892e23489ef",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347191631,
+        "stop" : 1790347195864,
+        "duration" : 4233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.yandex.practicum.tests"
+  } ]
+}

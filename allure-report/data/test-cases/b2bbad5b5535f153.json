@@ -1,0 +1,56 @@
+{
+  "uid" : "b2bbad5b5535f153",
+  "name" : "Переход к разделу 'Соусы'",
+  "fullName" : "ru.yandex.practicum.tests.ConstructorTest.switchToSaucesTab",
+  "historyId" : "a07ca6d481f801422e7dc3ee5b6ae363",
+  "time" : {
+    "start" : 1790347162124,
+    "stop" : 1790347167023,
+    "duration" : 4899
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "switchToSaucesTab"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "6936@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2bbad5b5535f153.json",
+  "parameterValues" : [ ]
+}

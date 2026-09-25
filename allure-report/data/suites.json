@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.practicum.tests.ConstructorTest",
+    "children" : [ {
+      "name" : "Переход к разделу 'Булки'",
+      "uid" : "79afecaa61a72032",
+      "parentUid" : "28f58e62d12ff07fd438ee21f78ef488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347149713,
+        "stop" : 1790347162061,
+        "duration" : 12348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход к разделу 'Соусы'",
+      "uid" : "b2bbad5b5535f153",
+      "parentUid" : "28f58e62d12ff07fd438ee21f78ef488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347162124,
+        "stop" : 1790347167023,
+        "duration" : 4899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход к разделу 'Начинки'",
+      "uid" : "4e54d963e0f2db8c",
+      "parentUid" : "28f58e62d12ff07fd438ee21f78ef488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347167028,
+        "stop" : 1790347172261,
+        "duration" : 5233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "28f58e62d12ff07fd438ee21f78ef488"
+  }, {
+    "name" : "ru.yandex.practicum.tests.LoginTest",
+    "children" : [ {
+      "name" : "Вход через кнопку 'Личный кабинет'",
+      "uid" : "dea5bf2d97cb1619",
+      "parentUid" : "67d04bde4ddddcac6baf411bb979acb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347172268,
+        "stop" : 1790347176063,
+        "duration" : 3795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход через кнопку 'Войти в аккаунт' на главной",
+      "uid" : "b89576dde85fe0ba",
+      "parentUid" : "67d04bde4ddddcac6baf411bb979acb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347176066,
+        "stop" : 1790347179946,
+        "duration" : 3880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход через кнопку в форме регистрации",
+      "uid" : "4790bf7aea62eedd",
+      "parentUid" : "67d04bde4ddddcac6baf411bb979acb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347179950,
+        "stop" : 1790347183483,
+        "duration" : 3533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход через кнопку в форме восстановления пароля",
+      "uid" : "74d2be6a1df2766c",
+      "parentUid" : "67d04bde4ddddcac6baf411bb979acb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347183489,
+        "stop" : 1790347187012,
+        "duration" : 3523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "67d04bde4ddddcac6baf411bb979acb6"
+  }, {
+    "name" : "ru.yandex.practicum.tests.RegistrationTest",
+    "children" : [ {
+      "name" : "Успешная регистрация",
+      "uid" : "b0745a7cd5198fd1",
+      "parentUid" : "e5babbff1777afee9bb3cb7189d693e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347187014,
+        "stop" : 1790347191627,
+        "duration" : 4613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка при пароле короче 6 символов",
+      "uid" : "53b1e892e23489ef",
+      "parentUid" : "e5babbff1777afee9bb3cb7189d693e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790347191631,
+        "stop" : 1790347195864,
+        "duration" : 4233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5babbff1777afee9bb3cb7189d693e5"
+  } ]
+}
