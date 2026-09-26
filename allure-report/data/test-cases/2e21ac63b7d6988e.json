@@ -1,0 +1,192 @@
+{
+  "uid" : "2e21ac63b7d6988e",
+  "name" : "Переход к разделу 'Булки'",
+  "fullName" : "ru.yandex.practicum.tests.ConstructorTest.switchToBunsTab",
+  "historyId" : "d32b89a5522224c8a52f0bc6eb68d6c5",
+  "time" : {
+    "start" : 1790422480619,
+    "stop" : 1790422492865,
+    "duration" : 12246
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя через API: test_70547d03@yandex.ru",
+      "time" : {
+        "start" : 1790422483241,
+        "stop" : 1790422488003,
+        "duration" : 4762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@7caf1e5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти к разделу конструктора: Соусы",
+      "time" : {
+        "start" : 1790422489463,
+        "stop" : 1790422489537,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tabName",
+        "value" : "Соусы"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, активна ли вкладка: Соусы",
+      "time" : {
+        "start" : 1790422489538,
+        "stop" : 1790422489557,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tabName",
+        "value" : "Соусы"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти к разделу конструктора: Булки",
+      "time" : {
+        "start" : 1790422489558,
+        "stop" : 1790422489601,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tabName",
+        "value" : "Булки"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, активна ли вкладка: Булки",
+      "time" : {
+        "start" : 1790422489602,
+        "stop" : 1790422489615,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tabName",
+        "value" : "Булки"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, активна ли вкладка: Соусы",
+      "time" : {
+        "start" : 1790422489616,
+        "stop" : 1790422491779,
+        "duration" : 2163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tabName",
+        "value" : "Соусы"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790422491779,
+        "stop" : 1790422492617,
+        "duration" : 838
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdhZGYwOTg0MjcwMDAxYmVkOWJmOSIsImlhdCI6MTc5MDQyMjUxMiwiZXhwIjoxNzkwNDIzNzEyfQ.Tfl4Y1vkPMeQEjy5rNRkoAaJdaQWJM1x07pPQiGUqD4"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "switchToBunsTab"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "12016@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e21ac63b7d6988e.json",
+  "parameterValues" : [ ]
+}

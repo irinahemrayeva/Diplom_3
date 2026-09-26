@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import ru.yandex.practicum.clients.UserClient;
 import ru.yandex.practicum.models.User;
+import ru.yandex.practicum.utils.ApiConfig;
 import ru.yandex.practicum.utils.UserGenerator;
 
 public class BaseTest {
@@ -18,7 +19,7 @@ public class BaseTest {
     protected User user;
     protected String accessToken;
 
-    private static final String BASE_URL = "https://stellarburgers.education-services.ru";
+    private static final String BASE_URL = ApiConfig.BASE_URL;
     private static final String YANDEX_BROWSER_PATH =
             "C:\\Program Files\\Yandex\\YandexBrowser\\Application\\browser.exe";
 

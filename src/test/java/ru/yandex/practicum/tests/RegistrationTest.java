@@ -26,11 +26,9 @@ public class RegistrationTest extends BaseTest {
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(newUser.getName(), newUser.getEmail(), newUser.getPassword());
 
-        // Ждём редирект на /login
-        new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10))
-                .until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("/login"));
+        LoginPage loginPageAfterRegister = new LoginPage(driver);
+        loginPageAfterRegister.waitForLoginPageRedirect();
 
-        // Удаляем пользователя через API: логин → токен → delete
         Response loginResponse = userClient.login(newUser);
         String newToken = loginResponse.then().extract().path("accessToken");
         if (newToken != null) {

@@ -1,0 +1,183 @@
+{
+  "uid" : "ca3eca7562312b89",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "fullName" : "ru.yandex.practicum.tests.LoginTest.loginFromForgotPasswordPageLink",
+  "historyId" : "20131d124cc88c185ff0e71c21a5c397",
+  "time" : {
+    "start" : 1790422512974,
+    "stop" : 1790422516597,
+    "duration" : 3623
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя через API: test_1127a1d8@yandex.ru",
+      "time" : {
+        "start" : 1790422514380,
+        "stop" : 1790422514579,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@1a8d4a3c"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликнуть 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1790422514597,
+        "stop" : 1790422514688,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть 'Восстановить пароль'",
+      "time" : {
+        "start" : 1790422514688,
+        "stop" : 1790422514761,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть ссылку 'Войти' со страницы восстановления пароля",
+      "time" : {
+        "start" : 1790422514764,
+        "stop" : 1790422514827,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Залогиниться с email=test_1127a1d8@yandex.ru",
+      "time" : {
+        "start" : 1790422514828,
+        "stop" : 1790422515015,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test_1127a1d8@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "password1127a1d8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, видна ли кнопка 'Оформить заказ'",
+      "time" : {
+        "start" : 1790422515015,
+        "stop" : 1790422515562,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790422515562,
+        "stop" : 1790422516344,
+        "duration" : 782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdhZTBhOTg0MjcwMDAxYmVkOWMwOCIsImlhdCI6MTc5MDQyMjUzOCwiZXhwIjoxNzkwNDIzNzM4fQ.jKJbVhR6rTE-eMXY2q6MlsXZuIp6KzXWBRJr8Y0PCx4"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromForgotPasswordPageLink"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "12016@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca3eca7562312b89.json",
+  "parameterValues" : [ ]
+}

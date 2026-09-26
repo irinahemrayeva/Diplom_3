@@ -1,6 +1,11 @@
 package ru.yandex.practicum.pages;
 
-import org.openqa.selenium.*;
+import io.qameta.allure.Step;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,30 +26,34 @@ public class MainPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
+    @Step("Кликнуть 'Войти в аккаунт'")
     public void clickLoginAccountButton() {
         wait.until(ExpectedConditions.elementToBeClickable(loginAccountButton)).click();
     }
 
+    @Step("Кликнуть 'Личный кабинет'")
     public void clickPersonalAccountButton() {
         wait.until(ExpectedConditions.elementToBeClickable(personalAccountButton)).click();
     }
 
+    @Step("Проверить, виден ли заголовок 'Соберите бургер'")
     public boolean isConstructorTitleVisible() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(constructorTitle)).isDisplayed();
     }
 
+    @Step("Проверить, видна ли кнопка 'Оформить заказ'")
     public boolean isPlaceOrderButtonVisible() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(placeOrderButton)).isDisplayed();
     }
 
-    // Клик по вкладке: "Булки", "Соусы" или "Начинки"
+    @Step("Перейти к разделу конструктора: {tabName}")
     public void clickConstructorTab(String tabName) {
         By tab = By.xpath("//span[text()='" + tabName + "']");
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(tab));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
 
-    // Проверка активной вкладки (класс tab_tab_type_current)
+    @Step("Проверить, активна ли вкладка: {tabName}")
     public boolean isTabActive(String tabName) {
         By tab = By.xpath("//div[contains(@class,'tab_tab_type_current')]//span[text()='" + tabName + "']");
         try {
