@@ -1,0 +1,153 @@
+{
+  "uid" : "879c15cac8eeeb3b",
+  "name" : "Вход через кнопку 'Войти в аккаунт' на главной",
+  "fullName" : "ru.yandex.practicum.tests.LoginTest.loginFromMainPageButton",
+  "historyId" : "d3cbf06ce61c67e2a03334a9a912779f",
+  "time" : {
+    "start" : 1790422505970,
+    "stop" : 1790422509296,
+    "duration" : 3326
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя через API: test_e9fee6cf@yandex.ru",
+      "time" : {
+        "start" : 1790422507229,
+        "stop" : 1790422507417,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@36f807f5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликнуть 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1790422507439,
+        "stop" : 1790422507522,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Залогиниться с email=test_e9fee6cf@yandex.ru",
+      "time" : {
+        "start" : 1790422507522,
+        "stop" : 1790422507742,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test_e9fee6cf@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "passworde9fee6cf"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, видна ли кнопка 'Оформить заказ'",
+      "time" : {
+        "start" : 1790422507742,
+        "stop" : 1790422508298,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790422508298,
+        "stop" : 1790422509068,
+        "duration" : 770
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdhZTAzOTg0MjcwMDAxYmVkOWMwMiIsImlhdCI6MTc5MDQyMjUzMSwiZXhwIjoxNzkwNDIzNzMxfQ.gjTTTizeVNgqW4Mqw7KcbCE4smrCCKtocH0jopEgOOE"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromMainPageButton"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "12016@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "879c15cac8eeeb3b.json",
+  "parameterValues" : [ ]
+}

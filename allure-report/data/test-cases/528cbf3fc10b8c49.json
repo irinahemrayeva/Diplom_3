@@ -1,0 +1,171 @@
+{
+  "uid" : "528cbf3fc10b8c49",
+  "name" : "Ошибка при пароле короче 6 символов",
+  "fullName" : "ru.yandex.practicum.tests.RegistrationTest.registerWithShortPasswordShowsError",
+  "historyId" : "17d8d0ce807fc6fe4300a1a1bcfb73e8",
+  "time" : {
+    "start" : 1790422521268,
+    "stop" : 1790422524033,
+    "duration" : 2765
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя через API: test_6bbea24c@yandex.ru",
+      "time" : {
+        "start" : 1790422522400,
+        "stop" : 1790422522582,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@49ba8aa8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Кликнуть 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1790422522625,
+        "stop" : 1790422522712,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1790422522712,
+        "stop" : 1790422522777,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Зарегистрировать пользователя: name=ShortPass, email=test_1790422522624@yandex.ru",
+      "time" : {
+        "start" : 1790422522778,
+        "stop" : 1790422523062,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "ShortPass"
+      }, {
+        "name" : "email",
+        "value" : "test_1790422522624@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "12345"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, показана ли ошибка 'Некорректный пароль'",
+      "time" : {
+        "start" : 1790422523063,
+        "stop" : 1790422523085,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790422523085,
+        "stop" : 1790422523845,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdhZTEyOTg0MjcwMDAxYmVkOWMxMCIsImlhdCI6MTc5MDQyMjU0NiwiZXhwIjoxNzkwNDIzNzQ2fQ.2KO7EMfB7vBwpHmvycl53Qr7mAP38Xl-W6d3wVqy21c"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerWithShortPasswordShowsError"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "12016@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "528cbf3fc10b8c49.json",
+  "parameterValues" : [ ]
+}

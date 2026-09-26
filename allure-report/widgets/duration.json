@@ -1,0 +1,91 @@
+[ {
+  "uid" : "528cbf3fc10b8c49",
+  "name" : "Ошибка при пароле короче 6 символов",
+  "time" : {
+    "start" : 1790422521268,
+    "stop" : 1790422524033,
+    "duration" : 2765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28c6e42e13d16525",
+  "name" : "Успешная регистрация",
+  "time" : {
+    "start" : 1790422516604,
+    "stop" : 1790422521264,
+    "duration" : 4660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6eec5ecd985013b",
+  "name" : "Переход к разделу 'Начинки'",
+  "time" : {
+    "start" : 1790422497921,
+    "stop" : 1790422502582,
+    "duration" : 4661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e21ac63b7d6988e",
+  "name" : "Переход к разделу 'Булки'",
+  "time" : {
+    "start" : 1790422480619,
+    "stop" : 1790422492865,
+    "duration" : 12246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "599a251b37970317",
+  "name" : "Переход к разделу 'Соусы'",
+  "time" : {
+    "start" : 1790422492977,
+    "stop" : 1790422497913,
+    "duration" : 4936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "879c15cac8eeeb3b",
+  "name" : "Вход через кнопку 'Войти в аккаунт' на главной",
+  "time" : {
+    "start" : 1790422505970,
+    "stop" : 1790422509296,
+    "duration" : 3326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "192f6945d75da94",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1790422509301,
+    "stop" : 1790422512970,
+    "duration" : 3669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca3eca7562312b89",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1790422512974,
+    "stop" : 1790422516597,
+    "duration" : 3623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0750b77244d4309",
+  "name" : "Вход через кнопку 'Личный кабинет'",
+  "time" : {
+    "start" : 1790422502595,
+    "stop" : 1790422505967,
+    "duration" : 3372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
